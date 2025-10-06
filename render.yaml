@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: viva10
+    env: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /
