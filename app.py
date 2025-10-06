@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Oct  6 15:50:18 2025
-
-@author: hbozcuk
-"""
-
 import subprocess, math, os
 import gradio as gr
 from pathlib import Path
@@ -563,4 +556,5 @@ demo.queue()
 if __name__ == "__main__":
     import os
     demo.launch(server_name="0.0.0.0", server_port=int(os.getenv("PORT", "7860")), show_error=True)
+
 
