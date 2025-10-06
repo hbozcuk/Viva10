@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Oct  6 15:49:09 2025
-
-@author: hbozcuk
-"""
-
 args <- commandArgs(trailingOnly=TRUE)
 toBool <- function(x) { as.logical(as.integer(x)) }
 
@@ -38,3 +31,4 @@ if (inherits(res, "try-error")) {
   write(msg, stderr())
   quit(status=1)
 }
+
