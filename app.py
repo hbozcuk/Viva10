@@ -559,3 +559,8 @@ with gr.Blocks(theme=gr.themes.Default(), css=SCALE_CSS) as demo:
 
 # Spaces otomatik başlatır; launch() gerekmez
 demo.queue()
+
+if __name__ == "__main__":
+    import os
+    demo.launch(server_name="0.0.0.0", server_port=int(os.getenv("PORT", "7860")), show_error=True)
+
