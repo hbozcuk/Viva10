@@ -1,13 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Oct  6 15:47:39 2025
-
-@author: hbozcuk
-"""
-
 r-base
 libcurl4-openssl-dev
 libssl-dev
 libxml2-dev
+
 
 
